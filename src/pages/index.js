@@ -1,11 +1,10 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
+import Layout from '../components/layout';
 
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page</title>
-      <h1>
+    <Layout pageTitle='Home Page'>
+      <h2>
         JEClark.co.uk
         <br />
         <span role='img' aria-label='Lightning bolt emojis'>
@@ -15,9 +14,8 @@ const IndexPage = () => {
         <span role='img' aria-label='Lightning bolt emojis'>
           ⚡️⚡️⚡️
         </span>
-      </h1>
-      <Link to='/about'>About</Link>
-    </main>
+      </h2>
+    </Layout>
   );
 };
 

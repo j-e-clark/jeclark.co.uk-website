@@ -16,9 +16,11 @@ const Layout = ({ pageTitle, children }) => {
         htmlAttributes={{
           lang: 'en',
         }}
-      />
-      <main className={container}>
+      >
         <title>{pageTitle}</title>
+        <meta name='description' content={`${pageTitle} of JEClark.co.uk`} />
+      </Helmet>
+      <main className={container}>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
         <nav>

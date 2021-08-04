@@ -15,9 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.8.1",
-    "gatsby-plugin-gatsby-cloud": "^2.8.1",
-    "gatsby-plugin-react-helmet": "^4.8.0",
+    "gatsby": "^3.10.2",
+    "gatsby-plugin-gatsby-cloud": "^2.10.1",
+    "gatsby-plugin-react-helmet": "^4.10.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"

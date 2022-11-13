@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import {
   container,
@@ -12,14 +11,6 @@ import {
 const Layout = ({ pageTitle, children }) => {
   return (
     <React.Fragment>
-      <Helmet
-        htmlAttributes={{
-          lang: 'en',
-        }}
-      >
-        <title>{pageTitle}</title>
-        <meta name='description' content={`${pageTitle} of JEClark.co.uk`} />
-      </Helmet>
       <main className={container}>
         <h1 className={heading}>{pageTitle}</h1>
         {children}

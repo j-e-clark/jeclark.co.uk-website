@@ -4,7 +4,9 @@ module.exports = {
     description: 'A simple homepage built with Gatsby',
     twitterUsername: '@jeclark',
     image: '/jeclark_logo.png',
-    siteUrl: 'https://www.jeclark.co.uk',
+    imageAlt: 'JEClark.co.uk',
+    domain: 'jeclark.co.uk',
+    siteUrl: 'https://jeclark.co.uk',
   },
   plugins: [
     {

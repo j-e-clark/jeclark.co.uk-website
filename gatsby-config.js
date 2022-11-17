@@ -32,4 +32,5 @@ module.exports = {
     },
     `gatsby-plugin-gatsby-cloud`,
   ],
+  trailingSlash: `always`,
 };

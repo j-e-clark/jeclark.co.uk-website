@@ -1,0 +1,5 @@
+html {
+  background-color: #000;
+  background-image: radial-gradient(circle at 80% 20%, #444, #000);
+  height: 100vh;
+}
